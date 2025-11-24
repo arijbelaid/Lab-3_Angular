@@ -68,13 +68,14 @@ Affichage : titre et description
 ## 📸 Captures d’écran
 
 ### Page d'accueil
-![Home Page](src/assets/images/home.png)
+![Home Page](src/assets/images)
 
 ### Page Login
-![Login Page](src/assets/images/login.png)
+![Login Page](src/assets/images)
 
 ### Page Contact
 ![Contact Page](src/assets/images/contact.png)
+
 
 
 
