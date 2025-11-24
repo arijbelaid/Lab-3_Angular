@@ -65,11 +65,16 @@ ProductsComponent : récupération d’un produit depuis https://dummyjson.com/p
 
 Affichage : titre et description
 
-📸 Captures d’écran
+## 📸 Captures d’écran
 
-Page d'accueil
+### Page d'accueil
+![Home Page](src/assets/images/home.png)
 
-Page Login
+### Page Login
+![Login Page](src/assets/images/login.png)
 
-Page Contact
+### Page Contact
+![Contact Page](src/assets/images/contact.png)
+
+
 
