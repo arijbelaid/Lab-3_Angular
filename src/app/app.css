@@ -1,0 +1,37 @@
+/* app.styles.css */
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+app-header {
+  display: block;
+  margin-bottom: 20px;
+}
+
+app-child {
+  display: block;
+  margin: 20px 0;
+}
+
+app-products {
+  display: block;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+router-outlet {
+  display: block;
+  margin-top: 20px;
+}

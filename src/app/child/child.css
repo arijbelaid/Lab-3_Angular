@@ -1,0 +1,38 @@
+/* child.styles.css */
+
+.child-container {
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.child-container p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.state-item {
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  background-color: #e0f7fa;
+  border-left: 4px solid #00bcd4;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #00796b;
+}
+
+.state-empty {
+  padding: 10px;
+  font-style: italic;
+  color: #999;
+  text-align: center;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
