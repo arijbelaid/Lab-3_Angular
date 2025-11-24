@@ -18,15 +18,14 @@ Objectif : Créer une application Angular avec :
 
 Vérifier les versions :
 
-```bash
-node -v
-npm -v
-ng version
+
 
 ---
+
 ⚡ Installation du projet
 
 npm install
+
 ---
 🚀 Lancer l'application
 
@@ -65,16 +64,6 @@ ProductsComponent : récupération d’un produit depuis https://dummyjson.com/p
 
 Affichage : titre et description
 
-## 📸 Captures d’écran
-
-### Page d'accueil
-![Home Page](src/assets/images)
-
-### Page Login
-![Login Page](src/assets/images)
-
-### Page Contact
-![Contact Page](src/assets/images/contact.png)
 
 
 
