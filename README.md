@@ -1,60 +1,75 @@
-# Ngapp
+# 🌐 TP Full Stack Development - Partie Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+---
 
-## Development server
+## 📌 Description
+Ce projet représente la partie **Angular** du TP Full Stack Development.  
+Objectif : Créer une application Angular avec :  
+- Routage dynamique  
+- Communication Parent → Enfant  
+- Appel API pour afficher des données  
 
-To start a local development server, run:
+---
+
+## 🛠 Prérequis
+- Node.js >= 18  
+- npm >= 8  
+- Angular CLI >= 20  
+
+Vérifier les versions :
 
 ```bash
+node -v
+npm -v
+ng version
+
+---
+⚡ Installation du projet
+
+npm install
+---
+🚀 Lancer l'application
+
 ng serve
-```
+----
+✨ Fonctionnalités
+1️⃣ Routing
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Barre de navigation (HeaderComponent) : Home, Login, Contact
 
-## Code scaffolding
+Routage HTML via [routerLink]
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Routage TypeScript via Router.navigate()
 
-```bash
-ng generate component component-name
-```
+Paramètres de route : ActivatedRoute pour afficher ID
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2️⃣ Composants
 
-```bash
-ng generate --help
-```
+HeaderComponent : navigation
 
-## Building
+LoginComponent & ContactComponent : pages principales
 
-To build the project run:
+ChildComponent : passer des données du parent à l’enfant
 
-```bash
-ng build
-```
+3️⃣ Partage de données
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Chaîne de caractères : Parent → Enfant
 
-## Running unit tests
+Liste de villes (states) : Parent → Enfant
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Affichage avec interpolation et boucle *ngFor
 
-```bash
-ng test
-```
+4️⃣ Appel API
 
-## Running end-to-end tests
+ProductsComponent : récupération d’un produit depuis https://dummyjson.com/products/1
 
-For end-to-end (e2e) testing, run:
+Affichage : titre et description
 
-```bash
-ng e2e
-```
+📸 Captures d’écran
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Page d'accueil
 
-## Additional Resources
+Page Login
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Lab-3_Angular
+Page Contact
+
