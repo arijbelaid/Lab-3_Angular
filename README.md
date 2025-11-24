@@ -22,17 +22,18 @@ Vérifier les versions :
 
 ---
 
-⚡ Installation du projet
-
+✨ Fonctionnalités
 npm install
-
 ---
-🚀 Lancer l'application
 
+🚀 Lancer l'application
 ng serve
 ----
-✨ Fonctionnalités
+✨ Fonctionnalité
+---
+
 1️⃣ Routing
+---
 
 Barre de navigation (HeaderComponent) : Home, Login, Contact
 
@@ -42,7 +43,9 @@ Routage TypeScript via Router.navigate()
 
 Paramètres de route : ActivatedRoute pour afficher ID
 
+
 2️⃣ Composants
+---
 
 HeaderComponent : navigation
 
@@ -51,18 +54,21 @@ LoginComponent & ContactComponent : pages principales
 ChildComponent : passer des données du parent à l’enfant
 
 3️⃣ Partage de données
-
+---
 Chaîne de caractères : Parent → Enfant
 
 Liste de villes (states) : Parent → Enfant
 
 Affichage avec interpolation et boucle *ngFor
 
+
 4️⃣ Appel API
+---
 
 ProductsComponent : récupération d’un produit depuis https://dummyjson.com/products/1
 
 Affichage : titre et description
+
 
 
 
